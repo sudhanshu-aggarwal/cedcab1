@@ -1,0 +1,23 @@
+
+#main{
+    padding: 3% 5%;
+    background-image: url('../Images/background.jpg');
+    height: 100vh;
+    background-size: 120% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+#main div{
+	margin-top: 3%;
+}
+
+#main h1, #main h3{
+	text-align: center;
+}
+
+#data{
+    padding: 2% 2%;
+    background-color: #419A1c;
+    width: 30%;
+}

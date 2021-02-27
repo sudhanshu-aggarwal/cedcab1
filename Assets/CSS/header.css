@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-template-areas: "logo navlinks";
+	width: 100%;
+	background-color: #419A1c;
+	height: 15vh;
+}
+
+#logo h1{
+    margin-top: 30px;
+	font-size: 32px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+	grid-area: logo;
+	font-size: 16px;
+    padding: 0;
+	margin: 8px;
+    margin-top: 0px;
+	color: black;
+}
+
+
+.navlinks{
+	grid-area: navlinks;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+    font-size: 32px;
+}
+
+.navlinks a{
+    font-size: 24px;
+	color: white;
+	text-decoration: none;
+}  

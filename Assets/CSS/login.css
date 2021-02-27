@@ -1,0 +1,22 @@
+#loginMain{
+    padding: 3% 5%;
+    background-image: url('../Images/holdingphone.jpg');
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#loginMain div{
+	margin-top: 6%;
+}
+
+#loginMain h1, #loginMain h3{
+	text-align: center;
+    color: white;
+}
+
+#loginData{
+    padding: 2% 2%;
+    background-color: #419A1c;
+    width: 30%;
+}
